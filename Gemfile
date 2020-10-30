@@ -40,4 +40,21 @@ group :development do
   gem 'rails_layout'
 end
 
-group :development, 
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'byebug'
+  gem 'pry'
+  gem 'spring-commands-rspec'
+end
+
+group :production do
+  gem 'rails_12factor'
+end
+
+group :test do
+  gem 'codeclimate-test-reporter'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'resque_spec'
+  gem 'shoulda-matchers', '2.8.0
