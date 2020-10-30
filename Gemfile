@@ -24,4 +24,20 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-bundler'
   gem 'capistrano-resque', '~> 0.2.2', require: false
-  g
+  gem 'hirb'
+  gem 'pry-rails'
+  gem 'rails-erd'
+  gem 'rubycritic', require: false
+  gem 'slackistrano', '~> 0.1.5', require: false
+  gem 'spring'
+  gem 'bullet'
+end
+
+group :development do
+  gem 'better_errors'
+  gem 'hub', :require=>nil
+  gem 'quiet_assets'
+  gem 'rails_layout'
+end
+
+group :development, 
