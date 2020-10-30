@@ -57,4 +57,6 @@ group :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'resque_spec'
-  gem 'shoulda-matchers', '2.8.0
+  gem 'shoulda-matchers', '2.8.0'
+  gem 'simplecov', require: false
+end
