@@ -110,4 +110,15 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    devise-bootstrap-views (
+    devise-bootstrap-views (0.0.6)
+    diff-lcs (1.2.5)
+    docile (1.1.5)
+    draper (1.4.0)
+      actionpack (>= 3.0)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      request_store (~> 1.0)
+    elasticsearch (1.0.14)
+      elasticsearch-api (= 1.0.14)
+      elasticsearch-transport (= 1.0.14)
+    elasticsearch-api (1.0.
