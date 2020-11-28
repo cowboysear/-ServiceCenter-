@@ -306,4 +306,17 @@ GEM
       docile (~> 1.1.0)
       json (~> 1.8)
       simplecov-html (~> 0.10.0)
-    simplecov-html 
+    simplecov-html (0.10.0)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    slackistrano (0.1.10)
+      capistrano (>= 3.0.1)
+      json
+    slop (3.6.0)
+    spring (1.4.1)
+    spring-commands-rspec (1.0.4)
+      spring (>= 0.9.1)
+    sprockets (3.4.0)
+      rack 
