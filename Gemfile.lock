@@ -389,4 +389,22 @@ DEPENDENCIES
   high_voltage
   hirb
   hub
-  j
+  jbuilder (~> 2.0)
+  jquery-rails
+  mysql2 (~> 0.3.18)
+  nokogiri
+  pry
+  pry-rails
+  quiet_assets
+  rails (= 4.2.5)
+  rails-erd
+  rails_12factor
+  rails_layout
+  resque_spec
+  rspec-rails
+  rubycritic
+  sass-rails (~> 5.0)
+  shoulda-matchers (= 2.8.0)
+  simplecov
+  slackistrano (~> 0.1.5)
+  spr
