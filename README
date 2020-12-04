@@ -18,4 +18,13 @@ option  Web server for production?
 choose  Enter your selection: [thin]
 option  Database used in development?
 choose  Enter your selection: [mysql]
-option  Tem
+option  Template engine?
+choose  Enter your selection: [erb]
+option  Test framework?
+choose  Enter your selection: [rspec]
+option  Continuous testing?
+choose  Enter your selection: [none]
+option  Front-end framework?
+choose  Enter your selection: [bootstrap3]
+option  Add support for sending email?
+choose  Ente
