@@ -27,4 +27,13 @@ choose  Enter your selection: [none]
 option  Front-end framework?
 choose  Enter your selection: [bootstrap3]
 option  Add support for sending email?
-choose  Ente
+choose  Enter your selection: [none]
+option  Authentication?
+choose  Enter your selection: [false]
+option  Devise modules?
+choose  Enter your selection: [false]
+option  OmniAuth provider?
+choose  Enter your selection: []
+option  Authorization?
+choose  Enter your selection: [false]
+option  Use a form builder 
