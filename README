@@ -36,4 +36,14 @@ option  OmniAuth provider?
 choose  Enter your selection: []
 option  Authorization?
 choose  Enter your selection: [false]
-option  Use a form builder 
+option  Use a form builder gem?
+choose  Enter your selection: [none]
+option  Add pages?
+choose  Enter your selection: [about]
+option  Set a locale?
+choose  Enter your selection: [none]
+option  Install page-view analytics?
+choose  Enter your selection: [none]
+option  Add a deployment mechanism?
+choose  Enter your selection: [heroku]
+option  Set a robots
