@@ -59,4 +59,4 @@ choose  Enter your selection: [true]
 option  Use 'pry' as console replacement during development and test?
 choose  Enter your selection: [false]
 option  Use or create a project-specific rvm gemset?
-choose  Enter your selection
+choose  Enter your selection: [false]
