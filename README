@@ -54,4 +54,9 @@ option  Add gem and file for environment variables?
 choose  Enter your selection: []
 option  Reduce assets logger noise during development?
 choose  Enter your selection: [true]
-option  Improve er
+option  Improve error reporting with 'better_errors' during development?
+choose  Enter your selection: [true]
+option  Use 'pry' as console replacement during development and test?
+choose  Enter your selection: [false]
+option  Use or create a project-specific rvm gemset?
+choose  Enter your selection
