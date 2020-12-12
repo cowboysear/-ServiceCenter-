@@ -46,4 +46,12 @@ option  Install page-view analytics?
 choose  Enter your selection: [none]
 option  Add a deployment mechanism?
 choose  Enter your selection: [heroku]
-option  Set a robots
+option  Set a robots.txt file to ban spiders?
+choose  Enter your selection: []
+option  Create a GitHub repository? (y/n)
+choose  Enter your selection: [true]
+option  Add gem and file for environment variables?
+choose  Enter your selection: []
+option  Reduce assets logger noise during development?
+choose  Enter your selection: [true]
+option  Improve er
