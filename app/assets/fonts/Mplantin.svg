@@ -1396,3 +1396,90 @@ d="M84 327c0 16.667 6.16699 31 18.5 43s26.833 18 43.5 18c17.333 0 32 -6 44 -18s1
     <glyph glyph-name="SF530000" unicode="&#x256b;" 
  />
     <glyph glyph-name="SF440000" unicode="&#x256c;" 
+ />
+    <glyph glyph-name="upblock" unicode="&#x2580;" 
+ />
+    <glyph glyph-name="dnblock" unicode="&#x2584;" 
+ />
+    <glyph glyph-name="block" unicode="&#x2588;" 
+ />
+    <glyph glyph-name="lfblock" unicode="&#x258c;" 
+ />
+    <glyph glyph-name="rtblock" unicode="&#x2590;" 
+ />
+    <glyph glyph-name="ltshade" unicode="&#x2591;" 
+ />
+    <glyph glyph-name="shade" unicode="&#x2592;" 
+ />
+    <glyph glyph-name="dkshade" unicode="&#x2593;" 
+ />
+    <glyph glyph-name="glyph261" unicode="&#x25a0;" horiz-adv-x="500" 
+ />
+    <glyph glyph-name="filledrect" unicode="&#x25ac;" 
+ />
+    <glyph glyph-name="triagup" unicode="&#x25b2;" 
+ />
+    <glyph glyph-name="triagrt" unicode="&#x25ba;" 
+ />
+    <glyph glyph-name="triagdn" unicode="&#x25bc;" 
+ />
+    <glyph glyph-name="triaglf" unicode="&#x25c4;" 
+ />
+    <glyph glyph-name="Edieresis" unicode="&#x25ca;" 
+ />
+    <glyph glyph-name="circle" unicode="&#x25cb;" 
+ />
+    <glyph glyph-name="invbullet" unicode="&#x25d8;" 
+ />
+    <glyph glyph-name="invcircle" unicode="&#x25d9;" 
+ />
+    <glyph glyph-name="smileface" unicode="&#x263a;" 
+ />
+    <glyph glyph-name="invsmileface" unicode="&#x263b;" 
+ />
+    <glyph glyph-name="sun" unicode="&#x263c;" 
+ />
+    <glyph glyph-name="female" unicode="&#x2640;" 
+ />
+    <glyph glyph-name="male" unicode="&#x2642;" 
+ />
+    <glyph glyph-name="spade" unicode="&#x2660;" 
+ />
+    <glyph glyph-name="club" unicode="&#x2663;" 
+ />
+    <glyph glyph-name="heart" unicode="&#x2665;" 
+ />
+    <glyph glyph-name="diamond" unicode="&#x2666;" 
+ />
+    <glyph glyph-name="musicalnote" unicode="&#x266a;" 
+ />
+    <glyph glyph-name="musicalnotedbl" unicode="&#x266b;" 
+ />
+    <glyph glyph-name="Scaron" unicode="&#xf000;" 
+ />
+    <glyph glyph-name="Ocircumflex" unicode="&#xf001;" horiz-adv-x="573" 
+d="M490 465v-332.998c0 -34.667 5.33301 -59.5 16 -74.5s27.667 -22.5 51 -22.5l3 1v-36h-229v36h7c24 -0.666992 41.333 6.5 52 21.5s16 39.5 16 73.5v216c0 19.333 -5.5 33.333 -16.5 42s-29.167 13 -54.5 13l-143 1v-271c0 -34.667 5.33301 -59.5 16 -74.5
+s28 -22.5 52 -22.5l6 1v-36h-233v36h8c23.333 -0.666992 40.333 6.5 51 21.5s16 39.5 16 73.5v272h-89v35c0 4.66699 1 7.66699 3 9s5.66699 2 11 2l19 1c21.333 -0.666992 35.833 2.66602 43.5 9.99902s12.5 21.666 14.5 42.999c5.33301 58.667 28.333 105.167 69 139.5
+s92.334 51.5 155.001 51.5c43.333 0 78.166 -6.66699 104.499 -20s39.5 -31.333 39.5 -54c0 -11.333 -4.16699 -21.333 -12.5 -30s-18.166 -13 -29.499 -13c-3.33301 0 -6.66602 0.333008 -9.99902 1s-6.66602 1.66699 -9.99902 3
+c-5.33301 2.66699 -10.833 6.66699 -16.5 12s-12.167 12 -19.5 20c-2.66699 3.33301 -5.33398 6.5 -8.00098 9.5s-5.33398 5.5 -8.00098 7.5c-9.33301 8.66699 -19.166 14.667 -29.499 18s-22.166 5 -35.499 5c-18.667 0 -35.834 -4.33301 -51.501 -13
+s-27.834 -20.667 -36.501 -36l-2 -4c-0.666992 -1.33301 -1.33398 -3 -2.00098 -5c-5.33301 -11.333 -9.16602 -23.833 -11.499 -37.5s-3.5 -31.5 -3.5 -53.5v-54h182c34 -0.666992 58.667 0 74 2s28.666 5.66699 39.999 11c0.666992 0 1.16699 0.166992 1.5 0.5l0.5 0.5v1z
+" />
+    <glyph glyph-name="Ograve" unicode="&#xf002;" horiz-adv-x="573" 
+d="M406 403l-214.001 0.00195312v-271c0 -34.667 5.33301 -59.5 16 -74.5s28 -22.5 52 -22.5l6 1v-36h-233v36h8c23.333 -0.666992 40.333 6.5 51 21.5s16 39.5 16 73.5v272h-89v35c0 4.66699 1 7.66699 3 9s5.66699 2 11 2l19 1c21.333 -0.666992 36 2.66602 44 9.99902
+s13 21.666 15 42.999c5.33301 59.333 28 106 68 140s91.667 51 155 51c17.333 0 33.833 -1.33301 49.5 -4s30.834 -6.66699 45.501 -12l45 17h16v-563c0 -34.667 5.16699 -59.5 15.5 -74.5s26.833 -22.5 49.5 -22.5l3 1v-36h-224v36h4c24 -0.666992 41.333 6.5 52 21.5
+s16 39.5 16 73.5v272v0zM405.999 450.002l-0.000976562 138c-0.666992 -0.666992 -1.16699 -0.833984 -1.5 -0.500977s-0.5 0.833008 -0.5 1.5c-1.33301 0.666992 -2.5 1.33398 -3.5 2.00098s-2.16699 1.66699 -3.5 3c-2 2 -4.33301 4.5 -7 7.5l-10 11.5
+c-2.66699 3.33301 -5.33398 6.5 -8.00098 9.5s-5.33398 5.5 -8.00098 7.5c-9.33301 8.66699 -19.166 14.667 -29.499 18s-22.166 5 -35.499 5c-9.33301 0 -18.666 -1.16699 -27.999 -3.5s-18 -5.83301 -26 -10.5c-18.667 -10.667 -32.167 -26.5 -40.5 -47.5
+s-12.5 -50.167 -12.5 -87.5v-54h214v0z" />
+    <glyph glyph-name="glyph1" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="glyph2" 
+ />
+    <glyph glyph-name="degree" horiz-adv-x="399" 
+d="M200 677c41.333 -0.666992 76.667 -15.667 106 -45s44 -64.666 44 -105.999s-14.667 -76.666 -44 -105.999s-64.666 -44 -105.999 -44s-76.833 14.667 -106.5 44s-44.5 64.666 -44.5 105.999c0.666992 41.333 15.667 76.666 45 105.999s64.666 44 105.999 44v1z
+M199.001 636c-30 -0.666992 -55.667 -11.667 -77 -33s-32 -47 -32 -77s10.667 -55.667 32 -77s47 -32 77 -32s55.667 10.667 77 32s32 47 32 77s-10.667 55.667 -32 77s-47 32 -77 32v1z" />
+    <glyph glyph-name="bullet" horiz-adv-x="350" 
+d="M175 453c34 -0.666992 62.833 -13 86.5 -37s35.5 -52.667 35.5 -86c0 -34 -11.833 -63 -35.5 -87s-52.5 -36 -86.5 -36s-63 12 -87 36s-36 53 -36 87c0 33.333 12 62 36 86s53 36 87 36v1z" />
+    <glyph glyph-name="daggerdbl" horiz-adv-x="500" 
+d="M-6 273h512v-46h-512v46v0z" />
+  </font>
+</defs></svg>
