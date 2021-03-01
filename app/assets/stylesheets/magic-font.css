@@ -7,4 +7,11 @@
 /* Font uses by Magic the Gathering
  * magic-font => Custom font that contains the MtG symbols
  * Mplantin => Font used for the text description in the card and for mana costs inside the mana symbol circles
- * Matrix Bold => Fo
+ * Matrix Bold => Font used for the card name and card types (Card headers)
+ * -------------------------- */
+@font-face {
+  font-family: 'magic-font';
+  src:url("magic-font.eot");
+  src:url("magic-font.eot?#iefix") format("embedded-opentype"),
+      url("magic-font.woff") format("woff"),
+      url("magic-font.ttf") format("truetype"),
