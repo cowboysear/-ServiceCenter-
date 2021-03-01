@@ -1,3 +1,10 @@
 /*!
  *  MTG Font 0.1.0 by Alexandre Arpin - http://alexandrearpin.com/mtg-font
- *  Based off Font Awesome's CSS - http://fontawesome.io/license (CS
+ *  Based off Font Awesome's CSS - http://fontawesome.io/license (CSS: MIT License)
+ *  CSS Classes and the associated HTML are subject to change
+ */
+
+/* Font uses by Magic the Gathering
+ * magic-font => Custom font that contains the MtG symbols
+ * Mplantin => Font used for the text description in the card and for mana costs inside the mana symbol circles
+ * Matrix Bold => Fo
