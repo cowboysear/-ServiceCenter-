@@ -15,3 +15,14 @@
   src:url("magic-font.eot?#iefix") format("embedded-opentype"),
       url("magic-font.woff") format("woff"),
       url("magic-font.ttf") format("truetype"),
+      url("magic-font.svg#magic-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Matrix-Bold";
+  src: url("Matrix-Bold.eot");
+  src: url("Matrix-Bold.eot") format("embedded-opentype"),
+       url("Matrix-Bold.woff") format("woff"),
+       url("Matrix-Bold.ttf") f
