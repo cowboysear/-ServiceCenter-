@@ -25,4 +25,15 @@
   src: url("Matrix-Bold.eot");
   src: url("Matrix-Bold.eot") format("embedded-opentype"),
        url("Matrix-Bold.woff") format("woff"),
-       url("Matrix-Bold.ttf") f
+       url("Matrix-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mplantin';
+  src: url('Mplantin.eot');
+  src: url('Mplantin.woff') format('woff'),
+       url('Mplantin.ttf') format('truetype'),
+       url('Mplantin.svg') format('svg');
+  font-weight: normal;
