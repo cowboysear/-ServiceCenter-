@@ -37,3 +37,11 @@
        url('Mplantin.ttf') format('truetype'),
        url('Mplantin.svg') format('svg');
   font-weight: normal;
+  font-style: normal;
+}
+
+/* Container setup and utility classes
+ * Default font icon is magic-font, anything inside .mi is considered to be magic-font
+ * This behavior is overriden on certain use-cases where we want to use alphanumerics
+ * Ex: colorless mana <i class='mi mi-mana'>1</i>
+ 
