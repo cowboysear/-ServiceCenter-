@@ -56,3 +56,27 @@
 
 /* makes the font 33% larger relative to the icon container */
 .mi-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.mi-2x {
+  font-size: 2em;
+}
+.mi-3x {
+  font-size: 3em;
+}
+.mi-4x {
+  font-size: 4em;
+}
+.mi-5x {
+  font-size: 5em;
+}
+
+.mi-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+.mi-rotate-90 {
+  filter: progid:DXImageTransform.Mic
