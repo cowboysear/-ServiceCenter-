@@ -44,4 +44,15 @@
  * Default font icon is magic-font, anything inside .mi is considered to be magic-font
  * This behavior is overriden on certain use-cases where we want to use alphanumerics
  * Ex: colorless mana <i class='mi mi-mana'>1</i>
- 
+ * -------------------------- */
+.mi, .mi:before{
+  display: inline-block;
+  font: normal normal normal 14px/1 magic-font;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+.mi-lg {
