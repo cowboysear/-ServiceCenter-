@@ -127,3 +127,22 @@
   content: "\e002";
 }
 .mi-r:before {
+  content: "\e003";
+}
+.mi-g:before {
+  content: "\e004";
+}
+.mi-p:before, .mi-phyrexian {
+  content: "\e005";
+}
+.mi-s:before {
+  content: "\e006";
+}
+.mi-c:before {
+  content: "\e007";
+}
+.mi-t:before, .mi-tap:before, .mi-q:before, .mi-untap:before {
+  content: "\e008";
+}
+.mi-artifact:before {
+  content:
