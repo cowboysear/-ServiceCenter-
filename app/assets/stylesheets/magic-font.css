@@ -145,4 +145,25 @@
   content: "\e008";
 }
 .mi-artifact:before {
-  content:
+  content: "\e009";
+}
+.mi-creature:before {
+  content: "\e00a";
+}
+.mi-enchantment:before {
+  content: "\e00b";
+}
+.mi-instant:before {
+  content: "\e00c";
+}
+.mi-land:before {
+  content: "\e00d";
+}
+.mi-multiple:before {
+  content: "\e00e";
+}
+.mi-planeswalker:before {
+  content: "\e00f";
+}
+.mi-sorcery:before {
+  cont
