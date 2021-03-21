@@ -180,4 +180,21 @@
 .mi-q:before, .mi-untap:before{
   /* Untap is a mirror'd Tap symbol */
   -ms-transform: rotate(270deg) scale(1, -1);
-  -we
+  -webkit-transform: rotate(270deg) scale(1, -1);
+  transform: rotate(270deg) scale(1, -1);
+}
+
+.mi-0:before{
+  content: "0";
+  font-family: Mplantin;
+}
+.mi-1:before{
+  content: "1";
+  font-family: Mplantin;
+}
+.mi-2:before{
+  content: "2";
+  font-family: Mplantin;
+}
+.mi-3:before{
+  content: "3
