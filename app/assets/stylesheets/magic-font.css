@@ -166,4 +166,18 @@
   content: "\e00f";
 }
 .mi-sorcery:before {
-  cont
+  content: "\e010";
+}
+.mi-tombstone:before {
+  content: "\e011";
+}
+.mi-infinite:before {
+  content: "\e012";
+}
+.mi-planeswalk:before {
+  content: "\e013";
+}
+.mi-q:before, .mi-untap:before{
+  /* Untap is a mirror'd Tap symbol */
+  -ms-transform: rotate(270deg) scale(1, -1);
+  -we
