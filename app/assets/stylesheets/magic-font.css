@@ -218,4 +218,26 @@
 }
 .mi-8:before{
   content: "8";
-  font-family: Mplantin
+  font-family: Mplantin;
+}
+.mi-9:before{
+  content: "9";
+  font-family: Mplantin;
+}
+.mi-10:before{
+  content: "10";
+  font-family: Mplantin;
+}
+.mi-11:before{
+  content: "11";
+  font-family: Mplantin;
+}
+.mi-12:before{
+  content: "12";
+  font-family: Mplantin;
+}
+.mi-13:before{
+  content: "13";
+  font-family: Mplantin;
+}
+.mi-14:before{
