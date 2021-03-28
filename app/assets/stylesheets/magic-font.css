@@ -261,4 +261,22 @@
   font-family: Mplantin;
 }
 .mi-19:before{
-  cont
+  content: "19";
+  font-family: Mplantin;
+}
+.mi-x:before{
+  content: "X";
+  font-family: Mplantin;
+}
+.mi-y:before{
+  content: "Y";
+  font-family: Mplantin;
+}
+.mi-z:before{
+  content: "Z";
+  font-family: Mplantin;
+}
+
+/* Mana
+ * Default behaviour is to create a round circle and compound css selector to show a symbol
+ * Ex:
