@@ -291,4 +291,20 @@
   border-radius: 100%;
 }
 
-/* WU
+/* WUBRG Mana (Forest, Mountain, etc...)
+ * Ex: Red Mana <i class='mi mi-mana mi-r'></i>
+ * -------------------------- */
+.mi-mana:before{
+  position:relative;
+  font-size: 0.8em;
+  top: -0.05em;
+}
+
+.mi-mana.mi-w:before{
+  top: -0.1em;
+}
+.mi-mana.mi-u:before{
+  top: -0.1em;
+} 
+.mi-mana.mi-b:before{
+  to
