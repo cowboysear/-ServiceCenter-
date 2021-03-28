@@ -279,4 +279,16 @@
 
 /* Mana
  * Default behaviour is to create a round circle and compound css selector to show a symbol
- * Ex:
+ * Ex: colorless mana <i class='mi mi-mana mi-2'></i>
+ * -------------------------- */
+.mi-mana,  .mi-mana-w, .mi-mana-u, .mi-mana-b, .mi-mana-r, .mi-mana-g{
+  width: 1em;
+  height:0;
+  padding-bottom: 1em;
+  text-align: center;
+  color: rgb(13,15,15);
+  background:rgb(202,197,192);
+  border-radius: 100%;
+}
+
+/* WU
