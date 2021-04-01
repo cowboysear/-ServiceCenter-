@@ -307,4 +307,21 @@
   top: -0.1em;
 } 
 .mi-mana.mi-b:before{
-  to
+  top: -0.1em;
+}
+.mi-mana.mi-r:before{
+  left: 0.05em;
+  top: -0.1em;
+} 
+.mi-mana.mi-g:before{
+  top: -0.08em;
+}
+
+/* Colorless Mana
+ * Ex: 2 Colorless Mana <i class='mi mi-mana mi-2'></i>
+ * -------------------------- */
+.mi-mana.mi-0:before,
+.mi-mana.mi-1:before,
+.mi-mana.mi-2:before,
+.mi-mana.mi-3:before,
+.mi-man
