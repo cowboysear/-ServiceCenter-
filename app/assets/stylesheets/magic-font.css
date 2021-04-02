@@ -352,4 +352,10 @@
 }
 
 /* Phyrexian Mana (Phyrexian symbol + Mana background color)
- * Ex: Phyrexian White Mana <i class='mi
+ * Ex: Phyrexian White Mana <i class='mi mi-p mi-mana-w'></i>
+ * -------------------------- */
+.mi-mana.mi-phyrexian:before , .mi-mana.mi-p:before,
+.mi-mana-w.mi-phyrexian:before , .mi-mana-w.mi-p:before,
+.mi-mana-u.mi-phyrexian:before , .mi-mana-u.mi-p:before,
+.mi-mana-b.mi-phyrexian:before , .mi-mana-b.mi-p:before,
+.mi-mana-r.mi-phyrexian:b
