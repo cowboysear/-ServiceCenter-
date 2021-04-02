@@ -337,4 +337,19 @@
 .mi-mana.mi-14:before,
 .mi-mana.mi-15:before,
 .mi-mana.mi-16:before,
-.mi-ma
+.mi-mana.mi-17:before,
+.mi-mana.mi-18:before,
+.mi-mana.mi-19:before{
+  font-size: 1.1em;
+  top: -0.1em;
+}
+
+.mi-mana.mi-x:before,
+.mi-mana.mi-y:before,
+.mi-mana.mi-z:before{
+  font-size: 0.90em;
+  top: -0.2em;
+}
+
+/* Phyrexian Mana (Phyrexian symbol + Mana background color)
+ * Ex: Phyrexian White Mana <i class='mi
