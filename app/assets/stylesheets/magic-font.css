@@ -358,4 +358,13 @@
 .mi-mana-w.mi-phyrexian:before , .mi-mana-w.mi-p:before,
 .mi-mana-u.mi-phyrexian:before , .mi-mana-u.mi-p:before,
 .mi-mana-b.mi-phyrexian:before , .mi-mana-b.mi-p:before,
-.mi-mana-r.mi-phyrexian:b
+.mi-mana-r.mi-phyrexian:before , .mi-mana-r.mi-p:before,
+.mi-mana-g.mi-phyrexian:before , .mi-mana-g.mi-p:before{
+  font-size: 0.95em;
+}
+
+/* Tap/Untap (Tap symbol + Colorless Mana background color)
+ * Ex: Tap <i class="mi mi-tap mi-mana"></i>
+ * -------------------------- */
+.mi-mana.mi-tap:before, .mi-mana.mi-t:before, 
+.mi-mana.mi-untap:bef
