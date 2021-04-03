@@ -388,4 +388,10 @@
 
 /* Split Mana - Mana that can be paid two different ways
  * This is done by wrapping 2 mana symbols in a split div
- * The 
+ * The idea is to make 2 half circle with the symbols or mana cost, rotate them 45', and then unrotate the symbols
+ * Ex: Red/Green mana symbol <div class="mi-split"><i class="mi mi-r"></i><i class="mi mi-g"></i></div>
+ * -------------------------- */
+.mi-split{
+  display:inline-block;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rota
