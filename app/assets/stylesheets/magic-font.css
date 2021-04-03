@@ -367,4 +367,14 @@
  * Ex: Tap <i class="mi mi-tap mi-mana"></i>
  * -------------------------- */
 .mi-mana.mi-tap:before, .mi-mana.mi-t:before, 
-.mi-mana.mi-untap:bef
+.mi-mana.mi-untap:before, .mi-mana.mi-q:before{
+  font-size: 0.65em;
+  top: -0.2em
+}
+
+/* Mana Shadows - Mana symbols on card headers have a slight drop shadow
+ * This class mimics that
+ * Ex: Red mana symbol with shadow <i class="mi mi-mana mi-r mi-shadow"></i>
+ * -------------------------- */
+.mi-mana.mi-shadow,
+.m
