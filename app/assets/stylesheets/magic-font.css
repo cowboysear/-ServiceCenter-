@@ -377,4 +377,15 @@
  * Ex: Red mana symbol with shadow <i class="mi mi-mana mi-r mi-shadow"></i>
  * -------------------------- */
 .mi-mana.mi-shadow,
-.m
+.mi-mana-w.mi-shadow,
+.mi-mana-u.mi-shadow,
+.mi-mana-b.mi-shadow,
+.mi-mana-r.mi-shadow,
+.mi-mana-g.mi-shadow
+{
+  box-shadow: -0.02em 0.04em 0.02em #000;
+}
+
+/* Split Mana - Mana that can be paid two different ways
+ * This is done by wrapping 2 mana symbols in a split div
+ * The 
