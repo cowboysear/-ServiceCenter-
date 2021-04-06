@@ -394,4 +394,23 @@
 .mi-split{
   display:inline-block;
   -ms-transform: rotate(45deg);
-  -webkit-transform: rota
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mi-split .mi{
+  background:rgb(202,197,192);
+  border-radius: 100% / 50%;
+}
+
+.mi-split .mi:nth-child(1){
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.mi-split .mi:nth-child(2){
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Split M
