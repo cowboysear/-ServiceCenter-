@@ -413,4 +413,16 @@
   border-bottom-left-radius: 0;
 }
 
-/* Split M
+/* Split Mana with Mana Symbols */
+.mi-split .mi:before{
+  display:inline-block;
+  position:relative;
+  font-size:0.44em;
+  margin:0.08em;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.mi-split .mi:nth-child(1).mi:before{
+  top:-0.7
