@@ -425,4 +425,16 @@
 }
 
 .mi-split .mi:nth-child(1).mi:before{
-  top:-0.7
+  top:-0.7em;
+  left:0.05em;
+  right:0;
+  bottom:0;
+}
+
+.mi-split .mi:nth-child(2).mi:before{
+  top:-0.55em;
+}
+
+/* Split Mana with Letters/Numbers
+ * Work in Progress - The CSS required to generate the split mana with the current dom is pretty ugly
+ * I don't believe this works on all browse
