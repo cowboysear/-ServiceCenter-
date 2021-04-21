@@ -437,4 +437,11 @@
 
 /* Split Mana with Letters/Numbers
  * Work in Progress - The CSS required to generate the split mana with the current dom is pretty ugly
- * I don't believe this works on all browse
+ * I don't believe this works on all browser and scales.
+ * Ex: 2/Green mana symbol <div class="mi-split mi-shadow"><i class="mi mi"><span>2</span></i><i class="mi mi-g"></i></div>
+ * -------------------------- */
+.mi-split .mi-0:before,
+.mi-split .mi-1:before,
+.mi-split .mi-2:before,
+.mi-split .mi-3:before,
+.mi-split .mi-4:befor
