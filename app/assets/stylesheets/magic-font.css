@@ -474,4 +474,25 @@
 .mi-mana-b, 
 .mi-b.mi-mana, 
 .mi-split .mi-b{
-  background:rgb(186,177,171) !importa
+  background:rgb(186,177,171) !important;
+}
+
+.mi-mana-g, 
+.mi-g.mi-mana, 
+.mi-split .mi-g{
+  background:rgb(163,192,149) !important;
+}
+.mi-mana-r, 
+.mi-r.mi-mana, 
+.mi-split .mi-r{
+  background:rgb(228,153,119) !important;
+}
+
+.mi-mana-u, 
+.mi-u.mi-mana, 
+.mi-split .mi-u{
+  background:rgb(193,215,233) !important;
+}
+
+.mi-mana-w, 
+.mi-w.mi-m
