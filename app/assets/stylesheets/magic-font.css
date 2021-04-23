@@ -464,4 +464,14 @@
 .mi-split.mi-shadow .mi:nth-child(1){
   box-shadow: 0em 0.03em 0.02em #000;
 }
-.mi-split.mi-sh
+.mi-split.mi-shadow .mi:nth-child(2){
+  box-shadow: 0em 0.03em 0.02em #000;
+}
+
+/* Mana Color Background - Enforce the right color
+ * Ex: Red mana background symbol <i class="mi mi-mana-r"></i>
+ * -------------------------- */
+.mi-mana-b, 
+.mi-b.mi-mana, 
+.mi-split .mi-b{
+  background:rgb(186,177,171) !importa
