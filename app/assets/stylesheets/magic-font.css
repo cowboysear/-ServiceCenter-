@@ -444,4 +444,18 @@
 .mi-split .mi-1:before,
 .mi-split .mi-2:before,
 .mi-split .mi-3:before,
-.mi-split .mi-4:befor
+.mi-split .mi-4:before,
+.mi-split .mi-5:before,
+.mi-split .mi-6:before,
+.mi-split .mi-7:before,
+.mi-split .mi-8:before,
+.mi-split .mi-9:before{
+  width: 1em;
+  font-family: Mplantin;
+  font-size: 0.58em;
+  margin: -0.08em;
+  left: 0.15em !important;
+}
+
+/* Split Mana Shadow
+ * Work in Progress - The behaviou
