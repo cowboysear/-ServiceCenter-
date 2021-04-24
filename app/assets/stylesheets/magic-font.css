@@ -495,4 +495,14 @@
 }
 
 .mi-mana-w, 
-.mi-w.mi-m
+.mi-w.mi-mana, 
+.mi-split .mi-w {
+  background:rgb(248,246,216) !important;
+}
+
+.mi-mana.mi-untap, .mi-mana.mi-q{
+  background:rgb(0,0,0);
+}
+.mi-mana.mi-untap:before{
+  color: rgb(255,255,255);
+}
