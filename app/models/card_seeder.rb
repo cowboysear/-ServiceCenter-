@@ -6,4 +6,14 @@ class CardSeeder
     new_card_set = CardSet.create(
       name: card_set_in_json['name'],
       code: card_set_in_json['code'],
-      release_date: card_set_in_json['releas
+      release_date: card_set_in_json['releaseDate'],
+      border: card_set_in_json['border'],
+      type: card_set_in_json['type']
+    )
+
+    card_set_in_json['cards'].each do |card|
+      new_card_set.cards.create(
+        artist: card['artist'],
+        cmc: card['cmc'],
+        colors: card['colors'],
+        flavor: card['f
