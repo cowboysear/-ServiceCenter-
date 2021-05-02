@@ -16,4 +16,14 @@ class CardSeeder
         artist: card['artist'],
         cmc: card['cmc'],
         colors: card['colors'],
-        flavor: card['f
+        flavor: card['flavor'],
+        uuid: card['id'],
+        image_name: card['imageName'],
+        layout: card['layout'],
+        mana_cost: card['manaCost'],
+        multiverse_id: card['multiverseid'],
+        name: card['name'],
+        number: card['number'],
+        power: card['power'],
+        rarity: card['rarity'],
+ 
