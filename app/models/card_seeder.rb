@@ -26,4 +26,12 @@ class CardSeeder
         number: card['number'],
         power: card['power'],
         rarity: card['rarity'],
- 
+        subtypes: card['subtypes'],
+        text: card['text'],
+        toughness: card['toughness'],
+        type: card['type'],
+        types: card['types']
+      )
+    end
+  end
+end
