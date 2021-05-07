@@ -15,4 +15,11 @@
 class CardSet < ActiveRecord::Base
   validates :name, presence: true
   validates :code, presence: true
-  validate
+  validates :release_date, presence: true
+  validates :border, presence: true
+
+  has_many :cards
+
+  # disable inheritance column since we have a 'type' field
+  self.inheritance_column = 'somthing_not_type'
+end
