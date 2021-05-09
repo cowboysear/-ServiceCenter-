@@ -18,4 +18,10 @@ class GathererScraper
       image_uri = ci.search('img').first.attributes['src'].value
       card_name = ci.css('.cardTitle').children.last.children.text
 
-      Card.where(name: card_name).update_all(card_i
+      Card.where(name: card_name).update_all(card_image_uri: "/#{image_uri.split("/")[2..3].join("/")}")
+
+    end
+
+    # This conditional evaluates to true whenever you are at "the last page" of the search results, might change in the future. Finish scraping.
+    if parsed_html.css('.pagingcontrols').xpath('//span[@style="visibility:hidden;"]').present?
+      return fals
