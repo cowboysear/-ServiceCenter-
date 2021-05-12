@@ -24,4 +24,10 @@ class GathererScraper
 
     # This conditional evaluates to true whenever you are at "the last page" of the search results, might change in the future. Finish scraping.
     if parsed_html.css('.pagingcontrols').xpath('//span[@style="visibility:hidden;"]').present?
-      return fals
+      return false
+    else
+      # Otherwise, scrape the next page.
+      current_uri = parsed_html.css('.pagingcontrols').xpath('//a[@style="text-decoration:underline;"]').first['href']
+
+      current_page_number = /aspx\?page=(?<page>[0-9]+)/.match(current_uri)[:page].to_i
+      n
