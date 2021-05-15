@@ -30,4 +30,9 @@ class GathererScraper
       current_uri = parsed_html.css('.pagingcontrols').xpath('//a[@style="text-decoration:underline;"]').first['href']
 
       current_page_number = /aspx\?page=(?<page>[0-9]+)/.match(current_uri)[:page].to_i
-      n
+      next_page_number_string = "aspx?page=#{current_page_number + 1}"
+      next_page_uri = current_uri.gsub(/aspx\?page=[0-9]+/, next_page_number_string)
+      self.scrape!(next_page_uri)
+    end
+  end
+end
