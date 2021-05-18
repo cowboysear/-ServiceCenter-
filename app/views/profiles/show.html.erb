@@ -1,0 +1,10 @@
+
+<h1> Hello MTG Owner </h1>
+<% @binders.each do |binder| %>
+  <p>
+    <%= binder.name %>
+    <%= link_to "Add Cards to Binder", new_binder_sellable_path(binder.id) %>
+  </p>
+<% end%>
+
+<p><%= link_to "New Binder", new_binder_path =%></p>
