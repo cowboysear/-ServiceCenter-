@@ -1,4 +1,15 @@
 <h1>Add Cards</h1>
 <table class="table table-striped">
   <thead>
- 
+    <td> Name </td>
+    <td> Color </td>
+    <td> Text </td>
+    <td> Code </td>
+  </thead>
+  <tbody>
+    <% @cards.each do |card| %>
+      <tr>
+        <td><%= card.name %></td>
+        <td><%= card.icon_class %></td>
+        <td><%= card.html_text %></td>
+        <td><co
