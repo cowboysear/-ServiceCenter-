@@ -13,4 +13,7 @@
     "Rails"
   ],
   "scripts": {},
-  
+  "env": {
+    "RAILS_ENV": "production"
+  }
+}
