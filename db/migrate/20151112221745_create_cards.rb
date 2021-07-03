@@ -16,3 +16,13 @@ class CreateCards < ActiveRecord::Migration
       t.integer  :toughness
       t.string  :rarity
       t.text  :text
+      t.string  :subtypes
+      t.string  :type
+      t.string  :types
+
+      t.belongs_to(:card_set, foreign_key: true)
+
+      t.timestamps
+    end
+  end
+end
