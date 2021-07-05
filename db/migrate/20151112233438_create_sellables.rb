@@ -5,4 +5,9 @@ class CreateSellables < ActiveRecord::Migration
       t.belongs_to(:card)
       t.string :name
       t.integer :quantity
-     
+      t.decimal :price
+
+      t.timestamps null: false
+    end
+  end
+end
