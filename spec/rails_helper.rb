@@ -40,4 +40,14 @@ RSpec.configure do |config|
   # `post` in specs under `spec/controllers`.
   #
   # You can disable this behaviour by removing the line below, and instead
-  # explicitly tag your specs with their typ
+  # explicitly tag your specs with their type, e.g.:
+  #
+  #     RSpec.describe UsersController, :type => :controller do
+  #       # ...
+  #     end
+  #
+  # The different available types are documented in the features, such as in
+  # https://relishapp.com/rspec/rspec-rails/docs
+  config.infer_spec_type_from_file_location!
+
+  # Filter lines from Rails gems 
